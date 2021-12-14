@@ -118,5 +118,90 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
 
+## Installation
+
+This APP requires a few steps for Installation, it is important to follow these steps in order so you have an optimal experiance using the APP. If you any of these steps do not work my suggestion is to use:
+StackoverFlow- https://stackoverflow.com/
+YouTube- https://www.youtube.com/
+Google - https://www.google.com/
+To help trouble shoot- my contact information is listed down below, feel free to reach out!
+
+* Open App and navigate to the package.json file in the root of the folder.
+
+* Hover your mouse over the package.json folder and right click.
+
+* Click/Choose "Open in Integrated Terminal".
+
+* In the command line type - npm i- it is important to NOT use caps- the APP will start to download the NODE dependencies that it requires and/or that are listed in the App's package.json file.( If you see 'warnings' populate while/when the modules are done loading it is OK! You only need to pay attention to ERRORs. If errors do occur while installing dependancy modules refer to the links I included above).
+
+*When the Modules are done compiling navigate your cursor to the db folder, click the folder and right click "schema.sql". Your will "Open in Integrated Terminal" and leave it be for now.
+
+* Now you will need to open your MySQL workbench and start a new connection. Please Note- you will need to make sure that the port is set to 3306- as that is the port that the APP uses. Create the connection and TEST it. If the Connection does not work please refer to the links i provided above or refer to this documentation from Digital Ocean https://docs.digitalocean.com/products/databases/mysql/resources/troubleshoot-connections/
+
+* When your MySQL workbench is connected you will need to "create a new instance". When your "new instance" is created navigate back to your schema.sql file, left click on the file so the schema shows in VS code, highlight the syntax, press and hold ctrl c, navigate back to your MySQL work bench, left click in your new instance playground and press and hold ctrl V.
+
+* At this point you should see the following 
+"DROP DATABASE IF EXISTS infoTech_db;
+
+CREATE DATABASE infoTech_db;
+
+you will then need to highlight this syntax in your workbench and then hit the lightening symbol.....congratulations!! You have now created your database in Mysql!
+
+* Now navigate back to your terminal that you opened through your schema file and log into MySQL using the following syntax- mysql -u root -p and hit enter! When you are connected switch back to the previous terminal, do not close the mysql terminal.
+
+*NOW in the terminal that you NPM I your node modules please write the following syntax.... node server.js
+This will start your server and allow you to work on the app locally!
+
+
+## Technologies Used
+
+NODE
+MYSQL
+HANDLEBARS
+EXPRESS
+SEQUELIZE
+BCRYPT
+SESSION
+PRETTIER
+JAVASCRIPT
+
+
+## Node Packages
+
+bcrypt
+connect-session-sequelize
+dotenv
+express
+express-handlebars
+express-session
+mysql2
+sequelize
+
+DEV DEPENDENCIES
+eslint
+eslint-config-prettier
+prettier
+
+## Known Bugs
+
+I am having trouble starting MySQL, I have navigated through the docs, used google and searched stackoverflow. I cannot seem to find a solution to help me start MySQL. 
+I have a feeling that it is something staring right at me but I am a little delerious right now. It is 3am and I have been working on Homework since 7am. I am behind on Homeworks and needed to get them done by 12am. As you can see that didnt happen because of some issues I have had with other apps. This is the first app today I didnt get fully working. This really bothers me and gives me a great deal of anxiety because I need to get a letter grade to recieve my certificate for the Bootcamp.
+I know the app isnt working but I do have the correct syntax, I am using all the packages that are called for and I am using the correct technologies that this Homework requires.
+I also beefed up the ReadMe to compensate for my short comings on the deployment of the APP.
+I do however realize that an incomplete might be a possability and that could stop me from recieving my Certificate. 
+I appreciate your time on this long read!
+
+
+
+
+
+## Author
+
+Jaime Martinez
+Jaimetx38@gmail.com
+GitHub Profile
+JAMATX38
+https://github.com/JAMATX38
+
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
