@@ -185,11 +185,13 @@ prettier
 ## Known Bugs
 
 I am having trouble starting MySQL, I have navigated through the docs, used google and searched stackoverflow. I cannot seem to find a solution to help me start MySQL. 
-I have a feeling that it is something staring right at me but I am a little delerious right now. It is 3am and I have been working on Homework since 7am. I am behind on Homeworks and needed to get them done by 12am. As you can see that didnt happen because of some issues I have had with other apps. This is the first app today I didnt get fully working. This really bothers me and gives me a great deal of anxiety because I need to get a letter grade to recieve my certificate for the Bootcamp.
+I have a feeling that it is something staring right at me but I am a little delerious right now. It is 3am and I have been working on Homework since 7am. I am behind on Homeworks and needed to get them done by 12am. As you can see that didnt happen because of some issues I have had with other apps. But I have to push forward and get the last Homework turned in no matter what. I have never cried over anything like this before and do not know why I am telling you this but it feels better to get it out. Bootcamp has been VERY hard. My personal life took a turn for the worse about 3 weeks in. I am also in the process of moving cities for work but that might be voided depending on me completing this course. I realize that my procrastination has really hindered my chances to graduate from this course and trust me its really hitting me now. I have now at least learned how to study, learn and take notes at this level! I only recently got my GED after being in the Natural/Organic food indusrtry for 20 years. I am just really proud of my self that I made it this far and I am going to continue to get these homeworks turned in no matter what.
+This is the first app today I didnt get fully working. This really bothers me and gives me a great deal of anxiety because I need to get a letter grade to recieve my certificate for the Bootcamp.
 I know the app isnt working but I do have the correct syntax, I am using all the packages that are called for and I am using the correct technologies that this Homework requires.
 I also beefed up the ReadMe to compensate for my short comings on the deployment of the APP.
 I do however realize that an incomplete might be a possability and that could stop me from recieving my Certificate. 
-I appreciate your time on this long read!
+I apologize for this long ReadMe, I had to tell someone all of this.
+Thank you for your time and good luck to you!
 
 
 
