@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS infoTech_db;
+
+CREATE DATABASE infoTech_db;
